@@ -1,0 +1,65 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica sans-serif;
+}
+
+
+/* Header */
+
+header .mobile {
+    display:none;
+}
+
+header .desktop {
+    background-color: gray;
+    display: inline-flex;
+    
+
+    
+}
+
+.desktop li {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header .desktop {
+        display: none;
+    }
+
+    header .mobile {
+        display: flex;
+    }
+
+
+}
+
+
+
+/* Banner */
+
+
+
+
+/* Information */
+
+
+
+
+
+/* Start Learning */
+
+
+
+
+/* Thesis */
+
+
+
+
+
+/* Footer */
+
+
+
